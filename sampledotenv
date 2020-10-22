@@ -1,0 +1,4 @@
+# Save this file as .env and fill in the appropriate values
+RECIPE_API_URL=http://www.recipepuppy.com/api/
+GIPHY_API_URL=http://api.giphy.com/v1/
+GIPHY_API_TOKEN=36ydFG613L3MY8fsqb59SDDgj5zoDBWk
