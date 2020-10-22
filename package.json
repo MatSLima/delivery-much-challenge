@@ -1,43 +1,42 @@
 {
-    "name": "delivery-much-api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "build": "npm run clean && babel src -d dist",
-      "clean": "rimraf dist",
-      "dev": "nodemon --exec babel-node ./src/index.js",
-      "start": "npm run clean && npm run build && cd dist && node index.js",
-      "test": "jest src --watch",
-      "test:e2e": "jest ./__test__ --runInBand"
-    },
-    "author": "Matheus Lima <matsdelima@gmail.com>",
-    "jest": {
-      "verbose": false
-    },
-    "dependencies": {
-      "babel-plugin-inline-dotenv": "^1.2.2",
-      "body-parser": "^1.18.3",
-      "axios": "^0.18.0",
-      "express": "^4.16.4"
-    },
-    "devDependencies": {
-      "@babel/cli": "^7.2.3",
-      "@babel/core": "^7.3.4",
-      "@babel/node": "^7.2.2",
-      "@babel/preset-env": "^7.3.4",
-      "babel-jest": "^24.4.0",
-      "dotenv": "^6.2.0",
-      "eslint": "^5.15.1",
-      "eslint-config-standard": "^12.0.0",
-      "eslint-plugin-import": "^2.16.0",
-      "eslint-plugin-node": "^8.0.1",
-      "eslint-plugin-promise": "^4.0.1",
-      "eslint-plugin-standard": "^4.0.0",
-      "faker": "^4.1.0",
-      "jest": "^24.3.1",
-      "nodemon": "^1.18.10",
-      "rimraf": "^2.6.3"
-    }
+  "name": "delivery-much-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && babel src -d dist",
+    "clean": "rimraf dist",
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "start": "npm run clean && npm run build && cd dist && node index.js",
+    "test": "jest src --watch",
+    "test:e2e": "jest ./__test__ --runInBand"
+  },
+  "author": "Matheus Lima <matsdelima@gmail.com>",
+  "jest": {
+    "verbose": false
+  },
+  "dependencies": {
+    "babel-plugin-inline-dotenv": "^1.2.2",
+    "body-parser": "^1.18.3",
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.4.0",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "faker": "^4.1.0",
+    "jest": "^24.3.1",
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3"
   }
-  
+}
