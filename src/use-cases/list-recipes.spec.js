@@ -1,7 +1,9 @@
-import {makeFakeGiphyRepository, makeFakeRecipesRepository} from '../../../__test__/fixtures/repository'
-import {makeRecipe1, makeGiphyResponse1} from '../../../__test__/fixtures/recipe'
-import makeRecipe from '../../entity/recipes'
+import {makeFakeGiphyRepository, makeFakeRecipesRepository} from '../../__test__/fixtures/repository'
+import {makeRecipe1, makeGiphyResponse1} from '../../__test__/fixtures/recipe'
+import buildMakeRecipe from '../entity/recipe'
 import makeListRecipes from './list-recipes'
+
+const makeRecipe = buildMakeRecipe({})
 
 describe('get recipes', () => {
   it('should return response body', async () => {
